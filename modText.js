@@ -30,6 +30,12 @@ if (RandomPhone < 1000 && RandomPhone > 100){RandomPhone =  "0" + RandomPhone;
 }if (RandomPhone < 10){RandomPhone =  "000" + RandomPhone;
 }var phoneNum = "800555" + RandomPhone;
 
+//phone num1
+var RandomPhone1 = Math.floor(Math.random()*10000);
+if (RandomPhone1 < 1000 && RandomPhone1 > 100){RandomPhone1 =  "0" + RandomPhone1;
+}if (RandomPhone1 < 100 && RandomPhone1 > 10) {RandomPhone1 =  "00" + RandomPhone1;
+}if (RandomPhone1 < 10){RandomPhone1 =  "000" + RandomPhone1;
+}var phoneNum1 = "800555" + RandomPhone1;
 
 //jQuery
 //----------------------------------------------------------------------
@@ -78,13 +84,13 @@ $phone.blur();
 
 // business phone
 var $phone=$('[name=insured_bus_phone]');
-$phone.val(phoneNum);
+$phone.val(phoneNum1);
 $phone.blur();
 
 // mobile phone
-var $phone=$('[name=insured_mobile_phone]');
-$phone.val(phoneNum);
-$phone.blur();
+//var $phone=$('[name=insured_mobile_phone]');
+//$phone.val(phoneNum);
+//$phone.blur();
 
 //email
 var $email=$('[name=insured_email]');
