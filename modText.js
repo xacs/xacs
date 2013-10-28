@@ -72,19 +72,19 @@ $insured_city.blur();
 $insured_city.change();
 
 // home phone
-var $phone=$('[name=insured_home_phone]');
-$phone.val(phoneNum);
-$phone.blur();
+//var $phone=$('[name=insured_home_phone]');
+//$phone.val(phoneNum);
+//$phone.blur();
 
 // business phone
-var $phone=$('[name=insured_bus_phone]');
-$phone.val(phoneNum);
-$phone.blur();
+//var $phone=$('[name=insured_bus_phone]');
+//$phone.val(phoneNum);
+//$phone.blur();
 
 // mobile phone
-var $phone=$('[name=insured_mobile_phone]');
-$phone.val(phoneNum);
-$phone.blur();
+//var $phone=$('[name=insured_mobile_phone]');
+//$phone.val(phoneNum);
+//$phone.blur();
 
 //email
 var $email=$('[name=insured_email]');
