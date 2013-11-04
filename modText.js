@@ -35,14 +35,14 @@ var RandomBusPhone = Math.floor(Math.random()*10000);
 if (RandomBusPhone < 1000 && RandomBusPhone > 100){RandomBusPhone =  "0" + RandomBusPhone;
 }if (RandomBusPhone < 100 && RandomBusPhone > 10) {RandomBusPhone =  "00" + RandomBusPhone;
 }if (RandomBusPhone < 10){RandomBusPhone =  "000" + RandomBusPhone;
-}var phoneNumBus = "801551" + RandomBusPhone;
+}var phoneNumBus = "801555" + RandomBusPhone;
 
 //phone Mobile
 var RandomMobilePhone = Math.floor(Math.random()*10000);
 if (RandomMobilePhone < 1000 && RandomMobilePhone > 100){RandomMobilePhone =  "0" + RandomMobilePhone;
 }if (RandomMobilePhone < 100 && RandomMobilePhone > 10) {RandomMobilePhone =  "00" + RandomMobilePhone;
 }if (RandomMobilePhone < 10){RandomMobilePhone =  "000" + RandomMobilePhone;
-}var phoneNumMobile = "808552" + RandomMobilePhone;
+}var phoneNumMobile = "808555" + RandomMobilePhone;
 
 
 //jQuery
