@@ -3,7 +3,7 @@
 //data
 //-----------------------------------------------------------------------------------------------------------------
 var today=new Date();
-var dateString = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear()+'_'+today.toTimeString();
+var dateString = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear()+'_'+today.toLocaleTimeString();
 var x = Math.ceil((2500*Math.random()-1));
 var y = Math.ceil((2500*Math.random()-1));
 var z = Math.ceil((2500*Math.random()-1));
